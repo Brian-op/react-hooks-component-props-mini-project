@@ -1,7 +1,8 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import About from "../components/About";
-import logo from "../assets/logo"
+
+const logo = "https://via.placeholder.com/215";
 
 test("renders a <aside> element", () => {
   const { container } = render(<About />);
